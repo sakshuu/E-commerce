@@ -25,7 +25,7 @@ app.use(cors({
             "http:localhost:3000",
             "http://localhost:3000",
             "http:localhost:5173",
-            "https://railway-mern-production.up.railway.app"
+            "https://e-commerce-rho-hazel.vercel.app/"
         ]
         if(allowed.indexOf(o) !== -1 || !o){
             cb(null, true)
