@@ -22,9 +22,9 @@ app.use(cors({
     credentials: true,
     origin:(o,cb) => {
         const allowed = [
-            "http:localhost:3000",
-            "http://localhost:3000",
-            "http:localhost:5173",
+            // "http:localhost:3000",
+            // "http://localhost:3000",
+            // "http:localhost:5173",
             "https://e-commerce-rho-hazel.vercel.app/api"
         ]
         if(allowed.indexOf(o) !== -1 || !o){
